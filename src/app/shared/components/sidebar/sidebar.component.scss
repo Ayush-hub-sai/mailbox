@@ -60,6 +60,7 @@
                 background: #eef3ff;
                 color: #007bff;
                 font-weight: 600;
+                border-left: 4px solid #ff0000;
             }
 
             .badge {
@@ -74,7 +75,7 @@
     }
 
     .folders {
-        margin-top: auto; // push to bottom if needed
+        margin-top: 100px;
 
         .folder-header {
             display: flex;
@@ -130,5 +131,16 @@
                 }
             }
         }
+    }
+
+    .compose-btn {
+        width: 100%;
+        border-radius: 5px;
+        padding: 10px;
+        outline: auto;
+        background: #ff2437;
+        color: white;
+        font-weight: bold;
+        margin-top: 22px;
     }
 }

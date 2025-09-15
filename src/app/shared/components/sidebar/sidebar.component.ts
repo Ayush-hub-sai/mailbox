@@ -13,10 +13,10 @@ import { MAILS } from '../../data/mail.data';
 export class SidebarComponent {
   menuItems: MenuItem[] = [
     { label: 'Inbox', icon: '📥', route: '/mailbox/inbox', badge: MAILS?.length },
-    { label: 'Flagged', icon: '⭐', route: '/mailbox' },
-    { label: 'Draft', icon: '📝', route: '/mailbox' },
-    { label: 'Sent', icon: '📤', route: '/mailbox' },
-    { label: 'Trash', icon: '🗑', route: '/mailbox' },
+    { label: 'Flagged', icon: '⭐', route: '/mailbox/flagged' },
+    { label: 'Draft', icon: '📝', route: '/mailbox/draft' },
+    { label: 'Sent', icon: '📤', route: '/mailbox/sent' },
+    { label: 'Trash', icon: '🗑', route: '/mailbox/trash' },
     { label: 'More', icon: '📦', route: '/mailbox' }
   ];
   folders: FolderItem[] = [
